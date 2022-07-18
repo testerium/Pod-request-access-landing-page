@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #121725;
+}
+
+main .logo {
+  margin: 102px 0 0 165px;
+}
+main .container {
+  width: 723px;
+  height: 509px;
+  margin-top: 103px;
+  background-color: #121725;
+  margin-left: 165px;
+}
+main .container h1 {
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 52px;
+  line-height: 62px;
+  text-transform: uppercase;
+  color: #54E6AF;
+  padding-top: 88px;
+}
+main .container h1 span {
+  color: #FFFFFF;
+}
+main .container .paragraph {
+  width: 445px;
+  margin: 24px 0 40px 0;
+}
+main .container .paragraph p {
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #C2CBE5;
+}
+main .container #form #email {
+  padding-left: 32px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+main .container #form input {
+  width: 427px;
+  height: 56px;
+  background: #2C344B;
+  border-radius: 28px;
+  border: none;
+  position: relative;
+}
+main .container #form input.error {
+  outline: 1px solid #FB3E3E;
+  border: 0;
+}
+main .container #form button {
+  width: 162px;
+  height: 46px;
+  position: absolute;
+  top: 630px;
+  left: 424px;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  color: #121725;
+  background: #54E6AF;
+  box-shadow: 0px 2px 4px rgba(84, 230, 175, 0.14);
+  border-radius: 28px;
+  border: none;
+}
+main .container #form button:hover {
+  cursor: pointer;
+  background: #B3FFE2;
+  box-shadow: 0px 25px 20px -20px rgba(84, 230, 175, 0.497913);
+  border-radius: 28px;
+}
+main .container #form #error_text {
+  display: none;
+  font-family: "Chivo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #FB3E3E;
+  padding: 8px 0 0 32px;
+}
+main .container #form #error_text.active {
+  display: block;
+}
+main .container .icons {
+  margin-top: 64px;
+  width: 536px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main .container .icons .media {
+  height: fit-content;
+}
+main .container .dots {
+  position: absolute;
+  left: 1210px;
+  top: 708px;
+}
+main .container .host {
+  z-index: -1;
+  position: absolute;
+  top: 119px;
+  left: 550px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+
+  main {
+    background-image: url(../assets/tablet/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+  }
+  main .logo {
+    margin: 50px 0 0 39px;
+  }
+  main .container {
+    width: 635px;
+    margin-top: 152px;
+    margin-left: 39px;
+  }
+  main .container h1 {
+    font-size: 48px;
+    line-height: 56px;
+    padding-top: 93px;
+  }
+  main .container .paragraph {
+    margin: 31px 0 40px 0;
+  }
+  main .container #form button {
+    top: 627px;
+    left: 297px;
+  }
+  main .container #error_text {
+    display: none;
+    font-family: "Chivo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FB3E3E;
+    padding: 8px 0 0 32px;
+  }
+  main .container #error_text .icons {
+    margin-top: 64px;
+    width: 536px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  main .container #error_text .icons .media {
+    height: fit-content;
+  }
+  main .container .dots {
+    position: absolute;
+    left: 40px;
+    top: 920px;
+  }
+  main .host img {
+    display: none;
+  }
+}
+@media screen and (max-width: 425px) {
+  body {
+    max-width: 425px;
+  }
+
+  main {
+    z-index: -1;
+    background-image: url(../assets/mobile/image-host.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: normal;
+  }
+  main .logo {
+    margin: 62px 120px 57px 120px;
+  }
+  main .container {
+    background: none;
+    width: 327px;
+    margin: 57px 24px 0 24px;
+  }
+  main .container h1 {
+    font-size: 26px;
+    line-height: 38px;
+    padding-top: 0;
+    text-align: center;
+  }
+  main .container .paragraph {
+    width: 327px;
+    margin: 16px 0 33px 0;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+  }
+  main .container #form {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  main .container #form #email {
+    opacity: 1;
+  }
+  main .container #form input {
+    width: 326px;
+    height: 46px;
+  }
+  main .container #form button {
+    width: 326px;
+    top: 675px;
+    left: 24px;
+  }
+  main .container .icons {
+    margin-top: 33px;
+    margin-bottom: 48px;
+    width: 315px;
+  }
+  main .container .icons .media {
+    width: 46px;
+    height: fit-content;
+  }
+  main .container #error_text {
+    font-size: 11px;
+    line-height: 12px;
+    padding: 0 0 0 32px;
+    margin-bottom: 2px;
+  }
+  main .dots,
+main .host {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
