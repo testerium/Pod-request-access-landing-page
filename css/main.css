@@ -132,7 +132,6 @@ main .container .host {
   body {
     max-width: 768px;
   }
-
   main {
     background-image: url(../assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
@@ -192,7 +191,6 @@ main .container .host {
   body {
     max-width: 425px;
   }
-
   main {
     z-index: -1;
     background-image: url(../assets/mobile/image-host.jpg);
