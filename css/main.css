@@ -128,10 +128,21 @@ main .container .host {
   left: 550px;
 }
 
+@media screen and (max-width: 2560px) {
+  body {
+    max-width: 2560px;
+    width: 100%;
+  }
+
+  #form button {
+    left: 985px;
+  }
+}
 @media screen and (max-width: 768px) {
   body {
     max-width: 768px;
   }
+
   main {
     background-image: url(../assets/tablet/image-host.jpg);
     background-repeat: no-repeat;
@@ -191,6 +202,7 @@ main .container .host {
   body {
     max-width: 425px;
   }
+
   main {
     z-index: -1;
     background-image: url(../assets/mobile/image-host.jpg);
